@@ -1,0 +1,22 @@
+
+body{
+    background:linear-gradient(to right,rgb(0, 0, 0, 0.6),rgb(0, 0, 0, 0.6)) , url('https://getwallpapers.com/wallpaper/full/8/3/0/1482568-new-4k-wallpaper-nature-3840x2160-notebook.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+   height:90vh;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+}
