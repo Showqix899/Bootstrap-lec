@@ -1,0 +1,23 @@
+.NavBar{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 0;
+
+}
+.components{
+    flex-grow: 1;
+}
+.com-link{
+    display: flex;
+    list-style: none;
+    color:purple;
+    font-size: 1.4rem;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
