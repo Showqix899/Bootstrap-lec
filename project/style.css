@@ -1,0 +1,69 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.navbar{
+    
+    /* background-color:rgb(255, 255, 255,0.7); */
+    backdrop-filter: blur(10px);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: sticky;
+    top:0;
+    z-index: 100;
+    
+    
+
+}
+body{
+    background:linear-gradient(to right,rgb(0, 0, 0 ,0.4),rgb(0, 0, 0,0.4)), url("https://wallpapers.com/images/hd/food-4k-1pf6px6ryqfjtnyr.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.c-img{
+    height:25rem;
+    object-fit: cover;
+    filter: brightness(60%);
+} 
+.card{
+    height: 550px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    background-size: cover;
+    width: 100%;
+}
+.card .card-text{
+    color: white;
+}
+.card .card-title{
+    color:white;
+}
+.bolder ,.fs-3{
+    color:white;
+}
+
+.footerb{
+    background-color: rgb(0, 0, 24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-lg-3 li{
+    list-style: none;
+    color:white;
+}
+
+
+@media all and (max-width:550px) {
+    .c-img{
+        height:15rem;
+    }
+    .footerb{
+        display: block;
+        
+    }
+    
+    
+}
